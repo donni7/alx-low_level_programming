@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry
- * print alphabet reverse
- * Retrun: 0
+ * Description: print alphabet reverse
+ * Return: 0
  */
 int main(void)
 {
