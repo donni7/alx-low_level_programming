@@ -1,16 +1,17 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * _memset - Entry
- * @s: pointed destination
- * @b: constant byte
- * @n: bytes
- * Return: 0
+ * _memset - The _memset() function
+ * @s: target
+ * @b: constant
+ * @n: number of byte
+ * Return: new value of target
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int i;
-
-for (i = 0; i < n; i++)
-	s[i] = b;
-return (s);
+	while (n)
+	{
+		s[n - 1] = b;
+		n--;
+	}
+	return (s);
 }
