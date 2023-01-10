@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * _pow_recursion - value of x to the power of y
  * @x: number
  * @y: power
