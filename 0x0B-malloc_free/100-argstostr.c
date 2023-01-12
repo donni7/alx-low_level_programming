@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * argstostr - concatenates arguments
- * @c: argument count
+ * @ac: argument count
  * @av: pointer
  * Return: Null or pointer
  */
